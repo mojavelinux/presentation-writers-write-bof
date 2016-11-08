@@ -1,0 +1,25 @@
+html[data-aspect-ratio="16/9"]
+  --slide-ratio calc(16 / 9)
+
+html[data-aspect-ratio="4/3"]
+  --slide-ratio calc(4 / 3)
+
+@media (max-aspect-ratio 4 / 3)
+  html[data-aspect-ratio="4/3"]
+    --slide-height calc(var(--slide-width) / var(--slide-ratio))
+    --slide-width 100vw
+
+@media (max-aspect-ratio 16 / 9)
+  html[data-aspect-ratio="16/9"]
+    --slide-height calc(var(--slide-width) / var(--slide-ratio))
+    --slide-width 100vw
+
+@media (min-aspect-ratio 4 / 3)
+  html[data-aspect-ratio="4/3"]
+    --slide-height 100vh
+    --slide-width calc(var(--slide-height) * var(--slide-ratio))
+
+@media (min-aspect-ratio 16 / 9)
+  html[data-aspect-ratio="16/9"]
+    --slide-height 100vh
+    --slide-width calc(var(--slide-height) * var(--slide-ratio))

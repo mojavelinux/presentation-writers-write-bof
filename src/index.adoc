@@ -1,0 +1,83 @@
+= Writers BOF
+:!sectids:
+:imagesdir: media
+:br: pass:[<br>]
+
+[.big-question]
+== Ideal team size?
+
+* How many cooks in the kitchen?
+* How do you go from 1 person to a real team?
+
+[.cue]
+****
+Ideal team size?
+****
+
+[.big-question]
+== Documentation bus factor?
+
+* Should documentation be done by a single person ?
+* Is it a good idea if your documentation is done by a single person ?
+
+[.cue]
+****
+Documentation bus factor?
+****
+
+[.big-question]
+== Do you have content owners?
+
+* Who owns which content?
+* Which docs should developer be responsible for writing?
+* Is there a main editor (to handle consistency)?
+
+[.cue]
+****
+Do you have content owners?
+****
+
+[.big-question]
+== Documentation team &{br} development team relationship?
+
+* Should we inspire from DevOps to create some kind of DevDocs spirit?
+
+[.cue]
+****
+Documentation team &{br} development team relationship?
+****
+
+[.big-question]
+== Granualarity of technical details?
+
+* How much technical details should be in the technical documentation?
+* How can we avoid the "too much too soon"?
+
+[.cue]
+****
+Granualarity of technical details?
+****
+
+[.big-question]
+== Documentation site as an app?
+
+* Docs = code
+* Devops, Changelogs
+* Builds, Versionning
+* ...
+
+[.cue]
+****
+Documentation site as an app?
+****
+
+[.big-question]
+== Docs version vs. software version?
+
+* What's the relationship between the version of the docs and version of the software it documents?
+* Documentation branch for software version?
+
+[.cue]
+****
+Docs version vs. software version?
+****

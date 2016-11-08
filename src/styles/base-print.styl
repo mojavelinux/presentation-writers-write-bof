@@ -1,0 +1,29 @@
+@media print
+  :root
+    --slide-ratio calc(16 / 9)
+
+  // landscape
+  @page
+    size 29.7cm 21cm
+    margin 0
+
+  html
+  body
+    background transparent !important
+    height auto
+    overflow auto
+
+  // prevent margin collapse
+  .deck bespoke-parent
+    padding 1px
+
+  .bespoke-slide
+    // prevent margin collapse
+    float left
+    clear left
+    margin calc(calc(100vh - var(--slide-height)) / 2) 0
+    page-break-inside avoid
+    position static
+    &:not(.bespoke-active)
+      // todo find another way
+      display flex

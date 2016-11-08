@@ -1,0 +1,122 @@
+@import 'base-reset.styl'
+@import 'base-slide-responsive.styl'
+@import 'base-slide-responsive-zoom.styl'
+@import 'base-slide-responsive-ratio.styl'
+@import 'base-print.styl'
+@import 'base-notes.styl'
+@import 'fonts.styl'
+@import 'text.styl'
+@import 'colors.styl'
+@import 'search.styl'
+
+.deck:not(.bespoke-parent)
+  display none
+
+.bespoke-slide
+  transition 200ms opacity linear
+  &.bespoke-before-1
+  &.bespoke-after-1
+    display flex
+    opacity 0
+  &.bespoke-before-1
+    z-index 0
+  &.bespoke-after-1
+    pointer-events none
+    z-index 2
+
+figure.image
+figure.video
+  display flex
+  flex-direction column
+  flex 1 1 0
+  width 100%
+
+figure.image svg
+figure.image img
+figure.video video
+  display block
+  flex 1 1 0
+  height 0
+  min-height 0
+  object-fit cover
+  object-position 50% 50%
+  width 100%
+
+figure.image.fig-contain svg
+figure.image.fig-contain img
+  object-fit contain
+
+figure.image figcaption
+  background var(--green)
+  color white
+  font-size 2rem
+  font-weight 500
+  padding calc(var(--min-line-height) / 3)
+  text-align center
+
+figure.image.fig-urlcaption figcaption
+  font-family OperatorMono, monospace
+  font-size calc(1rem * var(--font-factor))
+  font-weight bold
+
+.jade-content
+  top 0
+  left 0
+  position absolute
+  display none
+  //opacity 0
+  &:hover
+    //opacity 1
+
+html
+  --blue #0092ff
+  --green #26a75b
+  font-family 'Futura PT'
+
+pre[class*="language-"]
+  border none
+  width calc(var(--slide-width) * 0.9)
+
+code[class*="language-"]
+pre[class*="language-"]
+  color #222
+  font-family OperatorMono, monospace
+  font-size 1rem
+  font-weight 300
+  line-height calc(1 / 0.6)
+  margin 0
+  padding 0
+  .token.string
+    font-style italic
+
+
+.bespoke-slide
+  align-items center
+  justify-content center
+
+.bespoke-slide.title
+  h1
+    color #6565f7
+    font-size 5rem
+
+.bespoke-slide.big-question
+  h2
+    background-color #6565f7
+    box-sizing border-box
+    color #fff
+    font-size 2.5rem
+    font-weight 600
+    padding 3rem 2rem
+    text-align center
+    width 100%
+  ul
+    align-items flex-start
+    display flex
+    flex-direction column
+    flex 1
+    justify-content center
+  li
+    font-size 2rem
+    font-weight 400
+    padding .5rem 2rem
+    white-space normal

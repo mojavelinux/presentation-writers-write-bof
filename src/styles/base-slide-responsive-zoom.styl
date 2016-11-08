@@ -1,0 +1,25 @@
+html
+  background-color black
+  line-height calc(1 / 0.6)
+  --min-line-height calc(calc(calc(var(--slide-height) * var(--max-lines-height)) / var(--max-lines)) / var(--slide-zoom))
+
+[data-zoom="true"] .bespoke-parent
+  align-content flex-start
+  display flex
+  flex-wrap wrap
+  // +1px because of rounding pb
+  height calc(var(--slide-height) + 1px)
+  left calc(calc(100vw - var(--slide-width)) / 2)
+  overflow hidden
+  position absolute
+  top calc(calc(100vh - var(--slide-height)) / 2)
+  width calc(var(--slide-width) + 1px)
+
+[data-zoom="true"] .bespoke-slide
+  display flex
+  height calc(var(--slide-height) / var(--slide-zoom))
+  border 1px solid black
+  box-sizing border-box
+  position static
+  transform: translate3d(0, calc(calc(var(--slide-height) * var(--slide-zoom-shift) / var(--slide-zoom))), 0)
+  width calc(var(--slide-width) / var(--slide-zoom))

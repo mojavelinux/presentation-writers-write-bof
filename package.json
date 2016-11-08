@@ -1,0 +1,36 @@
+{
+  "name": "presentation-progressive-web-apps",
+  "version": "0.0.0",
+  "devDependencies": {
+    "bespoke": "1.1.0",
+    "bespoke-bullets": "1.1.0",
+    "bespoke-classes": "1.0.0",
+    "bespoke-extern": "1.0.0",
+    "bespoke-hash": "1.0.2",
+    "bespoke-nav": "1.0.2",
+    "bespoke-scale": "1.0.1",
+    "browserify": "13.1.0",
+    "del": "2.2.2",
+    "gh-pages": "0.11.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-connect": "5.0.0",
+    "gulp-csso": "2.0.0",
+    "gulp-exec": "2.1.2",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-stylus": "2.5.0",
+    "gulp-uglify": "2.0.0",
+    "gulp-util": "3.0.7",
+    "normalizecss": "3.0.0",
+    "through": "2.3.8",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "engines": {
+    "node": ">=6.3.1"
+  },
+  "dependencies": {
+    "bespoke-prism": "1.0.1"
+  }
+}
