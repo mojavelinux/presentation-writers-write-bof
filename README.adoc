@@ -17,6 +17,7 @@ Let's share ways to get other people to love and appreciate documentation just a
 == Resources
 
 * https://gist.github.com/mojavelinux/f66397404a80507ce5d25c3b7add3a26[Topic ideas]
+* https://gist.github.com/hsablonniere/93e352f49a2bedc66eeec9a9669a15e1[Notes from Devoxx MA, 2016]
 * https://gist.github.com/mojavelinux/386cccaa38915a58f2fc3943276ddb8a[Notes from Devoxx Belgium, 2016]
 * http://docslikecode.com/[Docs Like Code] -- A book about best practices for writing docs using development tools and techniques.
 
