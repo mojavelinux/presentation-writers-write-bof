@@ -3,16 +3,43 @@
 :imagesdir: media
 :br: pass:[<br>]
 
-[.big-question]
-== Ideal team size?
+[.cue]
+****
+Writers write!
+****
 
-* How many cooks in the kitchen?
-* How do you go from 1 person to a real team?
+== !
+
+image::images/teams.svg[]
 
 [.cue]
 ****
-Ideal team size?
+Team diagram.
 ****
+
+[.big-question]
+== Engaging Support Engineers
+
+* Support engineers are representatives of the users
+* How do we get them involved?
+* What do we do with their content?
+* How can we integrate it into the main documentation?
+
+[.cue]
+****
+Engage support engineers?
+****
+
+//[.big-question]
+//== Ideal team size?
+//
+//* How many cooks in the kitchen?
+//* How do you go from 1 person to a real team?
+//
+//[.cue]
+//****
+//Ideal team size?
+//****
 
 [.big-question]
 == Documentation bus factor?
@@ -37,15 +64,15 @@ Documentation bus factor?
 Do you have content owners?
 ****
 
-[.big-question]
-== Documentation team &{br} development team relationship?
-
-* Should we inspire from DevOps to create some kind of DevDocs spirit?
-
-[.cue]
-****
-Documentation team &{br} development team relationship?
-****
+//[.big-question]
+//== Relationship between{br} documentation & development team relationship?
+//
+//* Should we inspire from DevOps to create some kind of DevDocs spirit?
+//
+//[.cue]
+//****
+//Documentation team &{br} development team relationship?
+//****
 
 [.big-question]
 == Granualarity of technical details?
@@ -63,7 +90,7 @@ Granualarity of technical details?
 
 * Docs = code
 * Devops, Changelogs
-* Builds, Versionning
+* Builds, Versioning
 * ...
 
 [.cue]
@@ -81,3 +108,10 @@ Documentation site as an app?
 ****
 Docs version vs. software version?
 ****
+
+[.big-question]
+== User Studies / Feedback
+
+* How do you know readers find the the docs effective?
+* Do you accept feedback?
+* Do you interview the users / readers?

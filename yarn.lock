@@ -2450,9 +2450,9 @@ pretty-hrtime@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.2.tgz#70ca96f4d0628a443b918758f79416a9a7bc9fa8"
 
-"prism-themes@github:prismjs/prism-themes":
+prism-themes@PrismJS/prism-themes:
   version "1.0.0"
-  resolved "https://codeload.github.com/prismjs/prism-themes/tar.gz/4133ca6ced4a0f90a215a6f5a224c241e9607720"
+  resolved "https://codeload.github.com/PrismJS/prism-themes/tar.gz/4133ca6ced4a0f90a215a6f5a224c241e9607720"
 
 prismjs@^1.5.1:
   version "1.5.1"
